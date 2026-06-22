@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "dataset_id": "on003844",
-  "source": "openneuro",
-  "source_id": "ds003844",
+  "pipeline_stage": "enriched",
   "title": "Dataset Clinical Epilepsy iEEG to BIDS -RESPect_intraoperative_iEEG",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Zweiphenning W.": {},
     "Demuru M.": {},
@@ -11,33 +11,81 @@
     "Leijten F": {},
     "Zijlmans M.": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds003844.v1.0.1",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on003844",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on003844",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
-  ],
-  "pipeline_stage": "seeded",
-  "bids_version": "BEP010",
-  "recording_modality": [
-    "ieeg"
-  ],
-  "datatypes": [
-    "ieeg"
   ],
   "funding_references": [
     {
       "funder_name": "Epi-Sign Project"
     },
     {
-      "funder_name": "Alexandre Suerman Stipendium 2015"
+      "funder_name": "Alexandre Suerman Stipendium",
+      "award_number": "2015"
     },
     {
-      "funder_name": "Epilepsiefonds #17-07"
+      "funder_name": "Epilepsiefonds",
+      "award_number": "17-07"
     }
   ],
-  "acknowledgements": "dAngremont E., Wassenaar M."
+  "modalities": [
+    "ieeg"
+  ],
+  "resource_type_specific": "iEEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".eeg",
+    ".json",
+    ".md",
+    ".tsv",
+    ".vhdr",
+    ".vmrk"
+  ],
+  "description": "This dataset comprises intracranial EEG (iEEG) recordings from 12 epilepsy surgery patients enrolled in the RESPect (Registry for Epilepsy Surgery Patients) at the University Medical Center of Utrecht, the Netherlands. The collection includes six intraoperative electrocorticography (ECoG) recordings and six long-term iEEG recordings (three ECoG and three stereo-encephalography). All data are organized according to the Brain Imaging Data Structure (BIDS) specification, with detailed metadata documenting electrode configurations, surgical stages, and patient states during recording. This dataset is part of a larger RESPect registry of clinical intracranial EEG recordings.",
+  "methods_description": "Intracranial EEG recordings were acquired intraoperatively using electrocorticography (ECoG) with grid and strip/depth electrode configurations, and during long-term monitoring using both ECoG and stereo-encephalography (SEEG). Intraoperative recordings were organized into sessions corresponding to pre-resection, intermediate, and post-resection surgical stages. Long-term recordings were grouped by monitoring period with runs indicating day and time point of acquisition. Data organization follows the Brain Imaging Data Structure (BIDS) specification for neurophysiology data.",
+  "keywords": [
+    {
+      "term": "intracranial EEG"
+    },
+    {
+      "term": "electrocorticography"
+    },
+    {
+      "term": "stereo-encephalography"
+    },
+    {
+      "term": "epilepsy surgery"
+    },
+    {
+      "term": "surgical epilepsy"
+    },
+    {
+      "term": "BIDS"
+    },
+    {
+      "term": "clinical neurophysiology"
+    },
+    {
+      "term": "RESPect registry"
+    },
+    {
+      "term": "epilepsy"
+    }
+  ],
+  "source_hash": "6f7fddb48bcaae673d7c2ff77c519ed08d03d38773609723b1c60e18ddf9e9fc"
 }
