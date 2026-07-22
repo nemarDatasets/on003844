@@ -1,4 +1,9 @@
+0bd37acf-f03d-48bf-a578-d0dec136aaab runner@runnervm3jd5f:/tmp/nemar-import-on003844-8wRrVS/on003844 timestamp=1784685631s
 140f3675-1781-434b-aa13-05271d8731a8 runner@runnervm3jd5f:/tmp/nemar-import-on003844-e3gdKj/on003844 timestamp=1784686295s
+4236c401-ff67-4d5c-8ccc-ba15e896ad32 runner@runnervm7b5n9:/tmp/nemar-finalize-on003844-Yx1XPh/on003844-finalize timestamp=1782153153s
+46345343-cb5c-4644-8d6d-346a42ce537e runner@runnervm7b5n9:/tmp/nemar-import-on003844-dqTTAz/on003844 timestamp=1782153076s
+77d8b9d6-e819-43ae-bc91-09c3c91136d1 runner@runnervm3jd5f:/tmp/nemar-import-on003844-3rTs1x/on003844 timestamp=1784682166s
 86f28c51-a5c3-4650-ab8f-3ca4d8f4bdbb OpenNeuro timestamp=1634323585.299322393s
 906a5261-f57a-4646-84c0-bbf59e22758f s3-PRIVATE timestamp=1635262039.951804486s
+a12e4d6c-e4af-4c0f-9776-7972e3ca02de nemar-s3 timestamp=1782153080s
 ef716906-14f9-4fb1-b338-470e2c9bb284 s3-PUBLIC timestamp=1634385606.936218715s
