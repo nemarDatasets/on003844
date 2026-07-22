@@ -3,7 +3,7 @@
   "pipeline_stage": "enriched",
   "title": "Dataset Clinical Epilepsy iEEG to BIDS -RESPect_intraoperative_iEEG",
   "description": "This dataset comprises intracranial EEG (iEEG) recordings from 12 epilepsy surgery patients enrolled in the RESPect (Registry for Epilepsy Surgery Patients) study at the University Medical Center of Utrecht. The collection includes both intraoperative electrocorticography (ECoG) recordings from six patients and long-term iEEG monitoring data from six patients (three ECoG, three stereo-encephalography). All data are organized according to the Brain Imaging Data Structure (BIDS) specification to facilitate standardized access and analysis of clinical neurophysiology data.",
-  "methods_description": "Intracranial EEG recordings were acquired during epilepsy surgery procedures and long-term monitoring periods. Intraoperative recordings were organized into pre-resection, intermediate, and post-resection sessions relative to surgical resection timing. Long-term recordings were grouped by monitoring period with runs indicating day and time point of acquisition. Different electrode configurations (grids, strips, depth electrodes) and recording modalities (ECoG and stereo-encephalography) were employed depending on clinical requirements.",
+  "methods_description": "Intracranial EEG recordings were acquired during epilepsy surgery procedures and long-term clinical monitoring. Intraoperative recordings were organized into pre-resection, intermediate, and post-resection sessions relative to surgical resection timing. Long-term recordings were grouped by monitoring period with runs indicating day and time point of acquisition. Electrode configurations included grids, strips, and depth electrodes for ECoG and stereo-encephalography approaches.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -27,37 +27,28 @@
       "term": "epilepsy surgery"
     },
     {
-      "term": "intraoperative monitoring"
-    },
-    {
       "term": "BIDS"
     },
     {
       "term": "clinical neurophysiology"
     },
     {
-      "term": "RESPect"
+      "term": "RESPect study"
     },
     {
-      "term": "Registry for Epilepsy Surgery Patients"
+      "term": "intraoperative monitoring"
     },
     {
-      "term": "seizure"
+      "term": "long-term monitoring"
     },
     {
-      "term": "seizure focus"
+      "term": "electrode configurations"
     },
     {
-      "term": "neurosurgery"
+      "term": "seizure localization"
     },
     {
-      "term": "grid electrodes"
-    },
-    {
-      "term": "depth electrodes"
-    },
-    {
-      "term": "electrode strips"
+      "term": "epilepsy surgery outcome"
     }
   ],
   "related_identifiers": [
@@ -67,14 +58,14 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on003844",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
       "identifier": "10.18112/openneuro.ds003844.v1.0.1",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on003844",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [
@@ -95,7 +86,7 @@
     "ieeg"
   ],
   "sizes": [
-    "2.7 GB (115 files)"
+    "2.8 GB (115 files)"
   ],
   "formats": [
     ".eeg",
