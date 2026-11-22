@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Dataset Clinical Epilepsy iEEG to BIDS -RESPect_intraoperative_iEEG",
-  "description": "Clinical intracranial EEG (iEEG) recordings from 12 epilepsy surgery patients at the University Medical Center Utrecht, forming part of the RESPect (Registry for Epilepsy Surgery Patients) collection. Six patients were recorded intraoperatively with acute ECoG and six had long-term monitoring (three with ECoG, three with SEEG). The data are organized in BIDS, with separate session and run conventions for intraoperative and long-term recordings.",
-  "methods_description": "Intraoperative ECoG recordings are grouped into BIDS sessions by surgical situation (pre-resection, intermediate, post-resection), with letters indicating grid and strip/depth position. Long-term iEEG recordings are grouped by monitoring period, with the run label encoding the day and start time of recording. The task label describes patient state (e.g., rest, sleep, clinical SPES).",
+  "description": "Clinical intracranial EEG recordings from 12 epilepsy surgery patients, drawn from the RESPect (Registry for Epilepsy Surgery Patients) collection at University Medical Center Utrecht. Six patients were recorded intraoperatively with ECoG, and six had long-term monitoring (three with ECoG, three with SEEG). The data are organized in BIDS, with session and run structures that reflect the surgical stage (pre-resection, intermediate, post-resection) or the long-term monitoring period.",
+  "methods_description": "Intraoperative ECoG recordings are grouped into BIDS sessions by surgical situation (pre-resection, intermediate, post-resection) and by grid and strip/depth position. Long-term iEEG recordings are grouped by monitoring period. Runs encode the day and start time of the recording, and task labels (e.g., rest, sleep, SPESclin) describe the patient's state.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -11,7 +11,9 @@
     "Demuru M.": {},
     "van Blooijs D.": {},
     "Leijten F": {},
-    "Zijlmans M.": {}
+    "Zijlmans M.": {},
+    "Hermes D.": {},
+    "Leijten F.": {}
   },
   "keywords": [
     {
@@ -23,7 +25,7 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D000069280"
     },
     {
-      "term": "stereo-EEG"
+      "term": "stereoelectroencephalography"
     },
     {
       "term": "Epilepsy",
@@ -31,10 +33,13 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
     },
     {
+      "term": "intraoperative monitoring"
+    },
+    {
       "term": "epilepsy surgery"
     },
     {
-      "term": "intraoperative monitoring"
+      "term": "long-term monitoring"
     },
     {
       "term": "BIDS"
@@ -47,14 +52,14 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "10.18112/openneuro.ds003844.v1.0.1",
-      "identifier_type": "DOI",
-      "relation_type": "IsDerivedFrom"
-    },
-    {
       "identifier": "https://nemar.org/dataset/on003844",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds003844.v1.0.3",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
@@ -66,7 +71,7 @@
     },
     {
       "funder_name": "Epilepsiefonds",
-      "award_number": "#17-07"
+      "award_number": "17-07"
     }
   ],
   "resource_type_specific": "iEEG Dataset",
@@ -85,5 +90,5 @@
     ".vmrk",
     ".yml"
   ],
-  "source_hash": "03d42cafc8c9cffbbef92d96cbe6d3a9324698d43e7f0a51be84fd7b28a1ef9d"
+  "source_hash": "bd68597fe1749148a8a96d41ebf5c93837d2edd09ad6e83cc191f3decc4e83b0"
 }
